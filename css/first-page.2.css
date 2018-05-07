@@ -1,0 +1,221 @@
+body {
+    margin: 0; 
+}
+
+li {
+    list-style: none; 
+}
+
+header {
+  background-image: url("../images/header.jpg");
+  background-size: 100% 100%;
+  background-position: top center; 
+}
+
+nav {
+  background-color: rgb(0, 0, 0,0.2);
+  height: 72px; 
+  padding: 50,0;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.menu li {
+  display: inline-block;
+  border-right: 1px solid white;
+  border-color: rgba(107, 147, 144);
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 72px; 
+  color: white;}
+
+.welcome {
+  height: 495px;
+  text-align: center; }
+  .welcome p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: white; }
+
+h1 {
+  margin: 0;
+  padding-top: 172px;
+  font-size: 80px;
+  color: white;
+  font-weight: bold; }
+
+.downwelcome{
+    background-color: #f2f2f2;
+    color: #6e6e6e;
+    padding: 50px 0; 
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    font-size: 42px;
+}
+
+.downwelcome.p{
+    line-height: 20px;
+    padding: 50,50,100,50;    
+}
+.downwelcome.p.span.black {
+    color: black; }
+
+.downwelcome.p.span.green {
+    color: #80ba8d; }
+
+.hr{
+    margin: 0;
+    display: block;
+    border: 0.5px solid #f3f3f3; 
+}
+.middleicon{
+    background-color: #f2f2f2;
+    color: #6e6e6e;
+    padding: 50px 0; 
+    text-align: center;
+}
+  .middleicon ul {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    align-content: center;}
+    .middleicon ul li {
+      display: inline-block;
+      padding-right: 64px;
+      width: 25%; }
+      .middleicon ul li img {
+        margin-top: 80px; }
+      .middleicon ul li h3 {
+        margin: 40px 0;
+        color: #d6d6d6;
+        font-size: 24px; 
+    }
+
+.middleicon p {
+  margin: 0;
+  color: #787878;
+  font-size: 16px;
+  line-height: 25px; }
+.middleicon button {
+  height: 54px;
+  background-color: #80ba8e;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 88px;
+  margin-top: 40px;
+  width: 155px; }
+
+.middlepic-above {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  margin: 85px;
+  padding: 0;
+  white-space: nowrap; }
+  .middlepic-above li {
+    box-sizing: border-box;
+    display: inline-block;
+    white-space: normal;
+    width: 50%;
+    text-align: center;
+    padding: 0 25px; }
+  .middlepic-above img {
+    width: 577px;
+    height: 202px;
+    margin-bottom: 51px; }
+  .middlepic-above h3 {
+    color: #6c6c6c;
+    font-size: 28px;
+    margin: 0; }
+  .middlepic-above p {
+    box-sizing: border-box;
+    color: #a3a3a3;
+    line-height: 20px; }
+
+.middlepic-below {
+  font-size: 16px;
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  margin: 85px;
+  padding: 0;
+  white-space: nowrap; }
+  .middlepic-below li {
+    box-sizing: border-box;
+    display: inline-block;
+    white-space: normal;
+    width: 50%;
+    text-align: center;
+    padding: 0 25px; }
+  .middlepic-below img {
+    width: 577px;
+    height: 202px;
+    margin-bottom: 51px; }
+  .middlepic-below h3 {
+    color: #6c6c6c;
+    font-size: 28px;
+    margin: 0; }
+  .middlepic-below p {
+    box-sizing: border-box;
+    color: #a3a3a3;
+    line-height: 20px; }
+  
+
+.bottomwelcome {
+  height: 300px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -300px;
+  background-size: cover; }
+  .bottomwelcome p {
+    padding: 120px 200px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    color: white; }
+
+footer {
+  background-color: #161616; }
+  footer h2 {
+    margin: 0;
+    padding-top: 71px;
+    color: white;
+    font-size: 42px;
+    text-align: center; }
+  footer .p1 {
+    color: #434343;
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center; }
+  footer section {
+    margin: 50px 0 91px 0; }
+    footer section div {
+      display: flex;
+      justify-content: center; }
+      footer section div a {
+        text-decoration: none;
+        padding: 0 10px; }
+  footer hr {
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    border: 0.5px solid #424242; }
+  footer .p2 {
+    margin: 0;
+    color: #2d2d2d;
+    height: 110px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 0; }
+    footer .p2 span {
+      color: #424242; }
